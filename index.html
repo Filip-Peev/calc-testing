@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button id="clear" onclick="clearDisplay()">C</button>
+            <button id="delete" onclick="deleteLast()">DEL</button>
+            <button id="equals" onclick="calculate()">=</button>
+            <button id="add" onclick="appendOperator('+')">+</button>
+            <button id="seven" onclick="appendNumber('7')">7</button>
+            <button id="eight" onclick="appendNumber('8')">8</button>
+            <button id="nine" onclick="appendNumber('9')">9</button>
+            <button id="subtract" onclick="appendOperator('-')">-</button>
+            <button id="four" onclick="appendNumber('4')">4</button>
+            <button id="five" onclick="appendNumber('5')">5</button>
+            <button id="six" onclick="appendNumber('6')">6</button>
+            <button id="multiply" onclick="appendOperator('*')">*</button>
+            <button id="one" onclick="appendNumber('1')">1</button>
+            <button id="two" onclick="appendNumber('2')">2</button>
+            <button id="three" onclick="appendNumber('3')">3</button>
+            <button id="divide" onclick="appendOperator('/')">/</button>
+            <button id="zero" onclick="appendNumber('0')">0</button>
+            <button id="decimal" onclick="appendNumber('.')">.</button>
+        </div>
+        <textarea id="history" rows="5" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
