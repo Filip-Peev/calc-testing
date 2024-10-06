@@ -8,4 +8,4 @@ Uses simple JS script to evaluate the expression.
 
 <br><br>
 
-All buttons have IDs for easier manipulation. :)
+All buttons have IDs for easier location. :)
