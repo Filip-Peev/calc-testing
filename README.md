@@ -2,10 +2,8 @@
 
 ## Calculator for testing
 
-<br><br>
-
 Uses simple JS script to evaluate the expression.
 
-<br><br>
+[![link to calculator](screenshots/screenshot.webp)](https://filip-peev.com/calc-testing/)
 
 All buttons have IDs for easier location. :)
