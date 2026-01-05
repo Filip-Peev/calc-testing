@@ -1,8 +1,6 @@
-<br>
-
 ## Calculator for testing
 
-Uses simple JS script to evaluate the expression.
+Uses simple JS script to evaluate the expression. Click the image to open:
 
 [![link to calculator](screenshots/screenshot.webp)](https://filip-peev.com/calc-testing/)
 
